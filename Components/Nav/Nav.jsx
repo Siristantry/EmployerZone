@@ -14,7 +14,7 @@ export function Nav() {
   const [position, setPosition] = useState("bottom");
   return (
     <section className=" ">
-      <div className="w-[90vw] h-[50px] bg-white absolute flex items-center  ">
+      <div className="w-[80.9vw] h-[50px] bg-white absolute flex items-center justify-between  ">
         <div className=" ">
           <div>
             {" "}
@@ -43,7 +43,7 @@ export function Nav() {
             </DropdownMenu>{" "}
           </div>
         </div>
-        <div className="flex items-center pl-[50vw] gap-x-3">
+        <div className="flex items-center  gap-x-3">
           <div>
             <button>
               <img src="/message.png" alt="" className="w-[20px] h-[20px] " />

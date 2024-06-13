@@ -29,7 +29,7 @@ export function SideBar() {
       </div>
 
       <div className="mt-[20px] h-[2vw]"></div>
-      <ScrollArea className="h-[90vh] w-[18vw]  ">
+      <ScrollArea className="h-[400px] w-[18vw]  ">
         <div className="p-4 text-white">
           <>
             <button className="mb-4 text-sm font-semibold leading-none flex items-center gap-3 hover:underline text-[20px] ">
